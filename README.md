@@ -14,8 +14,13 @@ Mouse movements and keys pressed at first. Later, I will add things like program
 
 ## What useful applications can you build based off that data? 
 
-A tuned autocomplete function (like a smartphone's keyboard having autopredict), have certain applications be open before I think I want to open them, detect inefficiences and suggest improvements in my typing/navigation, 'autocomplete' and 'predict' mouse movements (instead of dragging all the way to top right corner of screen to exit a program, it will 'autocomplete' and jump ahead), mouse normalization for Parkinson patients.....  
+- Tuned autocomplete function (like a smartphone's keyboard having autopredict)
+- Have certain applications be open before I think I want to open them
+- Detect inefficiences and suggest improvements in my typing/navigation 
+- 'autocomplete' and 'predict' mouse movements (e.g instead of moving mouse all the way to top right corner of screen to exit a program, it will 'autocomplete' and jump ahead)
+- Mouse movement normalization for Parkinson patients
+- ...
 
 ## Wouldn't this invade privacy? 
 
-Yup! The delivery method is quite cumbersome, so I doubt deploying this against other people would work. 
+Yup! The delivery method is quite cumbersome (for now), so I doubt deploying this against other people would work. 
