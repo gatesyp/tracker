@@ -4,9 +4,9 @@ import time
 
 # All times are in seconds from epoch
 
-f = open('data/' + str(time.time()) + '.csv', 'wb')
+f = open('mouse_data/' + str(time.time()) + '.csv', 'wb')
 writer = csv.writer(f)
-writer.writerow(('Character', 'Time'))
+writer.writerow(('character', 'time'))
 
 
 def on_press(key):
