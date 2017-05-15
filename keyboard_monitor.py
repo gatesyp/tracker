@@ -5,14 +5,16 @@ import time
 
 class KeyboardMonitor:
     def __init__(self):
-        self.f = open('mouse_data/' + str(time.time()) + '.csv', 'wb')
+        self.f = open('keyboard_data/' + str(time.time()) + '.csv', 'wb')
         self.writer = csv.writer(self.f)
         self.writer.writerow(('character', 'time'))
+        print("Started")
 
     def on_press(self, key):
         return
 
     def on_release(self, key):
+        print(str(key))
         self.writer.writerow((str(key), str(time.time())))
         if key == Key.esc:
             # Stop listener
@@ -25,3 +27,7 @@ class KeyboardMonitor:
                 on_press=self.on_press,
                 on_release=self.on_release) as listener:
             listener.join()
+
+
+key = KeyboardMonitor()
+key.run_keyboard()
